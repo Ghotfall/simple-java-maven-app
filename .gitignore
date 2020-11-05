@@ -13,3 +13,4 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 /.idea/
 /my-app.iml
+/src/main/java/pipeline.gdsl
