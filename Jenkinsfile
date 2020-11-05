@@ -1,7 +1,7 @@
 node('master') {
     stage('Pre Build') {
         echo 'Cleaning workspace'
-        bat 'git clean -fdx'
+        deleteDir()
     }
 
     stage('Checkout') {
