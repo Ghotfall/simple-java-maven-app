@@ -4,4 +4,6 @@
 //Builder builder = new Builder()
 //builder.simpleBuild('master', true)
 
-sayHello 'Joe'
+node('master') {
+    sayHello 'Joe'
+}
